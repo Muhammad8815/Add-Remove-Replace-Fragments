@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/addone"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Add one"
+            android:layout_marginLeft="3sp"
+            android:layout_marginRight="3sp"/>
+        <Button
+            android:id="@+id/removeone"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="remove one"
+            android:layout_marginLeft="3sp"
+            android:layout_marginRight="3sp"/>
+        <Button
+            android:id="@+id/addtwo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Add two"
+            android:layout_marginLeft="3sp"
+            android:layout_marginRight="3sp"/>
+        <Button
+            android:id="@+id/removetwo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="remove two"
+            android:layout_marginLeft="3sp"
+            android:layout_marginRight="3sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:layout_marginBottom="10sp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/replaceone"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="replace by one"
+            android:layout_marginLeft="3sp"
+            android:layout_marginRight="3sp"/>
+        <Button
+            android:id="@+id/replacetwo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="replace by two"
+            android:layout_marginLeft="3sp"
+            android:layout_marginRight="3sp"/>
+
+    </LinearLayout>
+</LinearLayout>
